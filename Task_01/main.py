@@ -3,6 +3,8 @@
 # Формула для получения n-го члена прогрессии: an = a1 + (n-1) * d.
 # Каждое число вводится с новой строки.
 
+list_1 = []
+
 
 def Arifmetic(list, size, first, difference):
     i = 1
@@ -12,9 +14,8 @@ def Arifmetic(list, size, first, difference):
     return list
 
 
-list_1 = []
-size = int(input('Введите размер массива: '))
-first = int(input('Введите первый элемент: '))
-difference = int(input('Введите разность элементов: '))
+size = int(input('Введите размер массива -> '))
+first = int(input('Введите первый элемент -> '))
+difference = int(input('Введите разность элементов -> '))
 
 print(Arifmetic(list_1, size, first, difference))
